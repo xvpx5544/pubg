@@ -1,11 +1,11 @@
 function Main()
 menu1 = gg.choice({ 
-	[1] = ' One Click Safe馃槑(lobby) ',
-	[2] = ' One Click Ban馃お(lobby) ',
-	[3] = ' Wall Hack+Color馃寛(lobby) ',
-	[4] = ' Other Fuction ',
-	[5] = ' Black Sky ',
-	[6] = ' Exit ',
+	[1] = ' One Click Safe😎(lobby) ',
+	[2] = ' One Click Ban🤪(lobby) ',
+	[3] = ' Wall Hack+Color🌈(lobby) ',
+	[4] = ' Other Fuction🔧',
+	[5] = ' Black Sky🌌',
+	[6] = ' Exit❌',
 }, nil, "Infinity")
 if menu1 == 1 then ocs() end
 if menu1 == 2 then ocb() end
