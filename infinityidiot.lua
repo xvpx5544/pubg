@@ -1,17 +1,17 @@
 function Main()
 menu1 = gg.choice({ 
-	[1] = ' One Click Safe😎(lobby) ',
-	[2] = ' One Click Ban🤪(lobby) ',
-	[3] = ' Wall Hack+Color🌈(lobby) ',
+	[1] = ' One Click Safe馃槑(lobby) ',
+	[2] = ' One Click Ban馃お(lobby) ',
+	[3] = ' Wall Hack+Color馃寛(lobby) ',
 	[4] = ' Other Fuction ',
-	[5] = ' Anti Report(lobby) ',
+	[5] = ' Black Sky ',
 	[6] = ' Exit ',
 }, nil, "Infinity")
 if menu1 == 1 then ocs() end
 if menu1 == 2 then ocb() end
 if menu1 == 3 then whc() end
 if menu1 == 4 then of() end
-if menu1 == 5 then atr() end
+if menu1 == 5 then bsky() end
 if menu1 == 6 then exit() end
 XGCK=-1
 end
@@ -41,7 +41,6 @@ menu4 = gg.multiChoice({
 'Less Recoil',
 'Headshoot 88%',
 'Headshoot 65%',
-'Black Sky',
 '[BACK]',
 },nil,'Infinity')
 if menu4 == nil then
@@ -49,7 +48,6 @@ else
 if menu4[1] == true then lrc() end
 if menu4[2] == true then hs88() end
 if menu4[3] == true then hs65() end
-if menu4[4] == true then bsky() end
 end
 XGCK = 1
 end
@@ -183,7 +181,7 @@ gg.clearResults()
   gg.getResults(10)
   gg.editAll("200", gg.TYPE_FLOAT)
   gg.clearResults()
-gg.toast("Ban Ban Ban棣冩")
+gg.toast("Ban Ban Ban妫ｅ啯顬�")
 end
 
 function wh845()
@@ -223,7 +221,7 @@ gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("7", gg.TYPE_DWORD)
 gg.clearResults()
-gg.toast("HDR Red棣冩嚌")
+gg.toast("HDR Red妫ｅ啯鍤�")
 end
 
 function wh625()
@@ -240,7 +238,7 @@ function wh625()
     gg.getResults(10)
     gg.editAll("130", gg.TYPE_FLOAT)
     gg.clearResults()
-    gg.toast("WH SD 625 Activated 鉁�")
+    gg.toast("WH SD 625 Activated 閴侊拷")
   end
   
 function red1()
@@ -249,7 +247,7 @@ function red1()
     gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.getResults(10)
     gg.editAll("7", gg.TYPE_DWORD)
-    gg.toast("Merah HDR 鉁�")
+    gg.toast("Merah HDR 閴侊拷")
     gg.clearResults()
 end
 
@@ -323,25 +321,6 @@ gg.clearResults()
   gg.editAll("100", gg.TYPE_FLOAT)
   gg.clearResults()
 gg.toast("HEADSHOT 88 Active")
-end
-
-function atr()
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json")
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json")
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/filelist.json")
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs")
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp")
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp")
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.12.5.11052_20190529173829_47049834_cures.ifs.res")
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_117_0.12.5.11053_20190529195549_1602141269_cures.ifs.res")
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem")
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt")
-  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt")
-gg.clearResults()
-gg.toast("Anti Reported Done")
 end
 
 function bsky()
