@@ -1,11 +1,11 @@
 function Main()
 menu1 = gg.choice({ 
-	[1] = ' One Click Safe😎(lobby) ',
-	[2] = ' One Click Ban🤪(lobby) ',
-	[3] = ' Wall Hack+Color🌈(lobby) ',
-	[4] = ' Other Fuction🔧',
-	[5] = ' Black Sky🌌',
-	[6] = ' Exit❌',
+	[1] = ' One Click Safe馃槑(lobby) ',
+	[2] = ' One Click Ban馃お(lobby) ',
+	[3] = ' Wall Hack+Color馃寛(lobby) ',
+	[4] = ' Other Fuction馃敡',
+	[5] = ' Black Sky馃寣',
+	[6] = ' Exit鉂�',
 }, nil, "Infinity")
 if menu1 == 1 then ocs() end
 if menu1 == 2 then ocb() end
@@ -86,18 +86,6 @@ gg.getResults(10)
 gg.editAll("7", gg.TYPE_DWORD)
 gg.clearResults()
 gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1D;0.05000000075F;0.10000000149F;0.55000001192F;9.5F;15.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(800)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -113,7 +101,7 @@ gg.clearResults()
   gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
-  gg.editAll("100", gg.TYPE_FLOAT)
+  gg.editAll("200", gg.TYPE_FLOAT)
   gg.clearResults()
 gg.toast("Go Chicken Dinner")
 end
@@ -181,7 +169,7 @@ gg.clearResults()
   gg.getResults(10)
   gg.editAll("200", gg.TYPE_FLOAT)
   gg.clearResults()
-gg.toast("Ban Ban Ban妫ｅ啯顬�")
+gg.toast("Ban Ban Ban濡絽鍟‖锟�")
 end
 
 function wh845()
@@ -221,7 +209,7 @@ gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("7", gg.TYPE_DWORD)
 gg.clearResults()
-gg.toast("HDR Red妫ｅ啯鍤�")
+gg.toast("HDR Red濡絽鍟崵锟�")
 end
 
 function wh625()
@@ -238,7 +226,7 @@ function wh625()
     gg.getResults(10)
     gg.editAll("130", gg.TYPE_FLOAT)
     gg.clearResults()
-    gg.toast("WH SD 625 Activated 閴侊拷")
+    gg.toast("WH SD 625 Activated 闁翠緤鎷�")
   end
   
 function red1()
@@ -247,7 +235,7 @@ function red1()
     gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.getResults(10)
     gg.editAll("7", gg.TYPE_DWORD)
-    gg.toast("Merah HDR 閴侊拷")
+    gg.toast("Merah HDR 闁翠緤鎷�")
     gg.clearResults()
 end
 
