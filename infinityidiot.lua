@@ -33,6 +33,7 @@ if menu3[3] == true then wh625() end
 if menu3[4] == true then red1() end
 if menu3[5] == true then yellow() end
 if menu3[6] == true then wh835() end
+if menu3[7] == true then exit() end
 end
 XGCK = 1
 end
