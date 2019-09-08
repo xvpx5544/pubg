@@ -5,14 +5,16 @@ menu1 = gg.choice({
 	[3] = ' Wall Hack+Color馃寛(lobby) ',
 	[4] = ' Other Fuction馃敡',
 	[5] = ' Black Sky馃寣',
-	[6] = ' Exit鉂�',
+	[6] = ' SD 835 ',
+	[7] = ' Exit鉂�',
 }, nil, "Infinity")
 if menu1 == 1 then ocs() end
 if menu1 == 2 then ocb() end
 if menu1 == 3 then whc() end
 if menu1 == 4 then of() end
 if menu1 == 5 then bsky() end
-if menu1 == 6 then exit() end
+if menu1 == 6 then wh835() end
+if menu1 == 7 then exit() end
 XGCK=-1
 end
 
@@ -31,9 +33,7 @@ if menu3[1] == true then wh845() end
 if menu3[2] == true then hdrr() end
 if menu3[3] == true then wh625() end
 if menu3[4] == true then red1() end
-if menu3[5] == true then yellow() end
-if menu3[6] == true then wh835() end
-if menu3[7] == true then exit() end
+if menu3[5] == true then yellow()end
 end
 XGCK = 1
 end
