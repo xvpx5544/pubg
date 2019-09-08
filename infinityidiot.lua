@@ -23,7 +23,6 @@ menu3 = gg.multiChoice({
 'SD 625',
 'Color Red',
 'Color Yellow',
-'SD 835',
 '[BACK]',
 },nil,'Infinity')
 if menu3 == nil then
@@ -32,8 +31,8 @@ if menu3[1] == true then wh845() end
 if menu3[2] == true then hdrr() end
 if menu3[3] == true then wh625() end
 if menu3[4] == true then red1() end
-if menu3[5] == true then yellow() end
-if menu3[6] == true then wh835() end
+if menu3[5] == true then yellow()end
+end
 XGCK = 1
 end
 
@@ -252,28 +251,6 @@ function yellow()
     gg.toast("Yellow Color activated!")
 end
 
-function wh835()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("7.1746481e-43;1.0842022e-19;94.015625;7.0776718e-15;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(5)
-gg.editAll("9999", gg.TYPE_FLOAT)
-gg.toast("WH SD 835 Activated ✔")
-gg.clearResults()
-end
-		
 function lrc()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
