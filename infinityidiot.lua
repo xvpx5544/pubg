@@ -31,7 +31,7 @@ if menu3[1] == true then wh845() end
 if menu3[2] == true then hdrr() end
 if menu3[3] == true then wh625() end
 if menu3[4] == true then red1() end
-if menu3[5] == true then yellow()end
+if menu3[5] == true then yellow ()end
 end
 XGCK = 1
 end
