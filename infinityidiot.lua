@@ -1,11 +1,11 @@
 function Main()
 menu1 = gg.choice({ 
-	[1] = ' One Click Safe馃槑(lobby) ',
-	[2] = ' One Click Ban馃お(lobby) ',
-	[3] = ' Wall Hack+Color馃寛(lobby) ',
-	[4] = ' Other Fuction馃敡',
-	[5] = ' Black Sky馃寣',
-	[6] = ' Exit鉂�',
+	[1] = ' One Click Safe😎(lobby) ',
+	[2] = ' One Click Ban🤪(lobby) ',
+	[3] = ' Wall Hack+Color🌈(lobby) ',
+	[4] = ' Other Fuction🔧',
+	[5] = ' Black Sky🌌',
+	[6] = ' Exit❌',
 }, nil, "Infinity")
 if menu1 == 1 then ocs() end
 if menu1 == 2 then ocb() end
@@ -23,6 +23,7 @@ menu3 = gg.multiChoice({
 'SD 625',
 'Color Red',
 'Color Yellow',
+'SD 835'
 '[BACK]',
 },nil,'Infinity')
 if menu3 == nil then
@@ -31,7 +32,8 @@ if menu3[1] == true then wh845() end
 if menu3[2] == true then hdrr() end
 if menu3[3] == true then wh625() end
 if menu3[4] == true then red1() end
-if menu3[5] == true then yellow()end
+if menu3[5] == true then yellow() end
+if menu3[6] == true then wh835() end
 end
 XGCK = 1
 end
@@ -169,7 +171,7 @@ gg.clearResults()
   gg.getResults(10)
   gg.editAll("200", gg.TYPE_FLOAT)
   gg.clearResults()
-gg.toast("Ban Ban Ban濡絽鍟‖锟�")
+gg.toast("Ban Ban Ban妫ｅ啯顬�")
 end
 
 function wh845()
@@ -209,7 +211,7 @@ gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("7", gg.TYPE_DWORD)
 gg.clearResults()
-gg.toast("HDR Red濡絽鍟崵锟�")
+gg.toast("HDR Red妫ｅ啯鍤�")
 end
 
 function wh625()
@@ -226,7 +228,7 @@ function wh625()
     gg.getResults(10)
     gg.editAll("130", gg.TYPE_FLOAT)
     gg.clearResults()
-    gg.toast("WH SD 625 Activated 闁翠緤鎷�")
+    gg.toast("WH SD 625 Activated 閴侊拷")
   end
   
 function red1()
@@ -235,7 +237,7 @@ function red1()
     gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.getResults(10)
     gg.editAll("7", gg.TYPE_DWORD)
-    gg.toast("Merah HDR 闁翠緤鎷�")
+    gg.toast("Merah HDR 閴侊拷")
     gg.clearResults()
 end
 
@@ -250,6 +252,28 @@ function yellow()
     gg.clearResults()
     gg.toast("Yellow Color activated!")
 end
+
+function wh835()
+gg.clearResults()
+    gg.setRanges(gg.REGION_BAD)
+    gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(30)
+    gg.editAll("120", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(30)
+    gg.editAll("120", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_BAD)
+    gg.searchNumber("7.1746481e-43;1.0842022e-19;94.015625;7.0776718e-15;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(5)
+    gg.editAll("9999", gg.TYPE_FLOAT)
+    gg.toast("WH SD 835 Activated ✔")
+    gg.clearResults()
+  end
 
 function lrc()
 gg.clearResults()
