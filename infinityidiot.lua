@@ -1,12 +1,12 @@
 function Main()
 menu1 = gg.choice({ 
-	[1] = ' One Click Safe馃槑(lobby) ',
-	[2] = ' One Click Ban馃お(lobby) ',
-	[3] = ' Wall Hack+Color馃寛(lobby) ',
-	[4] = ' Other Fuction馃敡',
-	[5] = ' Black Sky馃寣',
+	[1] = ' One Click Safe??(lobby) ',
+	[2] = ' One Click Ban??(lobby) ',
+	[3] = ' Wall Hack+Color??(lobby) ',
+	[4] = ' Other Fuction??',
+	[5] = ' Black Sky??',
 	[6] = ' SD 835 ',
-	[7] = ' Exit鉂�',
+	[7] = ' Exit??',
 }, nil, "Infinity")
 if menu1 == 1 then ocs() end
 if menu1 == 2 then ocb() end
@@ -171,47 +171,43 @@ gg.clearResults()
   gg.getResults(10)
   gg.editAll("200", gg.TYPE_FLOAT)
   gg.clearResults()
-gg.toast("Ban Ban Ban濡絽鍟‖锟�")
+gg.toast("Ban Ban Ban????????")
 end
 
 function wh845()
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("274,677,779D;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("130", gg.TYPE_FLOAT)
+gg.searchNumber('4.7408166e21;1.9327361e10;4.8146041e21;3.7615819e-37;2::', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll('120', gg.TYPE_FLOAT)
 gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("218D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("130", gg.TYPE_FLOAT)
+gg.searchNumber('1.3912556e-19;1.5414283e-44;1.1202057e-19;3.7615819e-37;2::', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll('120', gg.TYPE_FLOAT)
 gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("95D;2;9.2194229e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("130", gg.TYPE_FLOAT)
+gg.searchNumber('4.7408149e21;-5.5695588e-40;4.814603e21;3.7615819e-37;2::', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll('120', gg.TYPE_FLOAT)
 gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("206D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("130", gg.TYPE_FLOAT)
+gg.searchNumber('1.3912525e-19;5.465064e-44;1.1202042e-19;3.7615819e-37;2::', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll('120', gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Wall Hack 845")
+gg.toast('Wallhack SD845 activated!')
 end
 
 function hdrr()
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("1,081,081,861;7;-2,146,435,049;8200::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("HDR Red濡絽鍟崵锟�")
+gg.searchNumber('8204;256;176;7;8200::', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('8200', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll('7', gg.TYPE_DWORD)
+gg.toast('Colour Red HDR SD845 activated!')
 end
 
 function wh625()
@@ -228,7 +224,7 @@ function wh625()
     gg.getResults(10)
     gg.editAll("130", gg.TYPE_FLOAT)
     gg.clearResults()
-    gg.toast("WH SD 625 Activated 闁翠緤鎷�")
+    gg.toast("WH SD 625 Activated ?????")
   end
   
 function red1()
@@ -237,7 +233,7 @@ function red1()
     gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.getResults(10)
     gg.editAll("7", gg.TYPE_DWORD)
-    gg.toast("Merah HDR 闁翠緤鎷�")
+    gg.toast("Merah HDR ?????")
     gg.clearResults()
 end
 
@@ -271,7 +267,7 @@ gg.clearResults()
     gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
     gg.getResults(5)
     gg.editAll("9999", gg.TYPE_FLOAT)
-    gg.toast("WH SD 835 Activated ✔")
+    gg.toast("WH SD 835 Activated ?")
     gg.clearResults()
   end
 
@@ -338,12 +334,13 @@ end
 function bsky()
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false, nil, 0, -1)
-gg.searchNumber("100", gg.TYPE_FLOAT, false, nil, 0, -1)
-gg.getResults(100)
-gg.editAll("-99", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("BLACK SKY")
+gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false)
+gg.refineNumber("100", gg.TYPE_FLOAT, false)
+gg.getResults(100)
+gg.editAll("-90", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Black Sky Activated")
 end
 
 function Exit()
