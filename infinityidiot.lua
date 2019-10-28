@@ -197,7 +197,7 @@ gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll('120', gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast('Wallhack SD845 activated!')
+gg.toast('Wallhack SD845 V2 activated!')
 end
 
 function hdrr()
@@ -207,6 +207,7 @@ gg.searchNumber('8204;256;176;7;8200::', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0,
 gg.refineNumber('8200', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(20)
 gg.editAll('7', gg.TYPE_DWORD)
+gg.clearResults()
 gg.toast('Colour Red HDR SD845 activated!')
 end
 
