@@ -33,14 +33,14 @@ end
 function of()
 menu2 = gg.multiChoice({ 
 'Less Recoil',
-'Headshoot 88%',
+'Headshoot 70%',
 'Headshoot 65%',
 '[BACK]',
 },nil,'Infinity')
 if menu2 == nil then
 else
 if menu2[1] == true then lrc() end
-if menu2[2] == true then hs88() end
+if menu2[2] == true then hs70() end
 if menu2[3] == true then hs65() end
 end
 XGCK = 1
@@ -131,40 +131,26 @@ end
 
 function lrc()
 gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1D;0.05000000075F;0.10000000149F;0.55000001192F;9.5F;15.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(800)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("LessRecoil Activated")
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber('1,348,759,109;1953067887;1,634,692,166;1,920,287,604::28', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber('1634692166', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(4)
+  gg.editAll('1634692165', gg.TYPE_DWORD)
+ gg.clearResults()
+ gg.toast("New Recoil")
 end
 
-function hs88()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("-450", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("-560", gg.TYPE_FLOAT)
+function hs70()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
-gg.editAll("200", gg.TYPE_FLOAT)
+gg.editAll("250", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("HEADSHOT 88 Active")
+gg.toast("Headshot 70")
 end
 
 function hs65()
